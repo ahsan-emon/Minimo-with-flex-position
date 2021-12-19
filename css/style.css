@@ -1,0 +1,218 @@
+/* font-family: 'Playfair Display', serif;
+font-family: 'Ubuntu', sans-serif; */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+header {
+  width: 90%;
+  margin: auto;
+  padding: 50px 0 100px 0;
+}
+.logo-area {
+  width: 20%;
+}
+.menu-area {
+  width: 36%;
+}
+.flex-test1 {
+  display: flex;
+  justify-content: space-between;
+}
+.menu-area ul {
+  list-style: none;
+}
+.menu-area ul li a {
+  text-decoration: none;
+  color: black;
+  text-transform: uppercase;
+  color: #626262;
+  font-family: "Playfair Display", serif;
+}
+.banner-area {
+  width: 90%;
+  margin: auto;
+}
+.banner-area img {
+  width: 100%;
+  margin-bottom: 50px;
+}
+.article-area {
+  width: 80%;
+  margin: auto;
+  padding-bottom: 100px;
+}
+.article-area h5 {
+  font-family: "Ubuntu", sans-serif;
+  text-transform: uppercase;
+  color: #b4ad9e;
+  margin-top: 40px;
+  font-size: 13px;
+  font-weight: 400;
+}
+.article-area h1 {
+  font-family: "Playfair Display", serif;
+  color: #626262;
+  margin: 20px 0;
+  font-size: 21px;
+  font-weight: 400;
+}
+.article-area p {
+  font-family: "Playfair Display", serif;
+  color: #626262;
+  font-size: 14px;
+}
+.flex-test {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.lifestyle-size:nth-child(1),
+.lifestyle-size:nth-child(2) {
+  margin-bottom: 150px;
+}
+.lifestyle-size {
+  width: 35%;
+  margin-bottom: 100px;
+}
+.lifestyle_left img,
+.photodiary_left img {
+  width: 100%;
+}
+.lifestyle_left h5,
+.photodiary_left h5 {
+  font-family: "Ubuntu", sans-serif;
+  text-transform: uppercase;
+  color: #b4ad9e;
+  margin-top: 40px;
+  font-size: 13px;
+  font-weight: 400;
+}
+.lifestyle_left h1,
+.photodiary_left h1 {
+  font-family: "Playfair Display", serif;
+  color: #626262;
+  margin: 20px 0;
+  font-size: 21px;
+  font-weight: 400;
+}
+.lifestyle_left p,
+.photodiary_left p {
+  font-family: "Playfair Display", serif;
+  color: #626262;
+  font-size: 14px;
+}
+.lifestyle_right img,
+.photodiary_right img {
+  width: 100%;
+}
+.lifestyle_right h5,
+.photodiary_right h5 {
+  font-family: "Ubuntu", sans-serif;
+  text-transform: uppercase;
+  color: #b4ad9e;
+  margin-top: 40px;
+  font-size: 13px;
+  font-weight: 400;
+}
+.lifestyle_right h1,
+.photodiary_right h1 {
+  font-family: "Playfair Display", serif;
+  color: #626262;
+  margin: 20px 0;
+  font-size: 21px;
+  font-weight: 400;
+}
+.lifestyle_right p,
+.photodiary_right p {
+  font-family: "Playfair Display", serif;
+  color: #626262;
+  font-size: 14px;
+}
+.contact {
+  background-color: #f0f0f0;
+}
+.contact .message {
+  width: 25%;
+  margin: auto;
+}
+.message h1 {
+  font-family: "Playfair Display", serif;
+  color: #333333;
+  padding: 50px 0;
+  font-size: 30px;
+  font-weight: 400;
+}
+.message input {
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid #000;
+  padding: 8px 0;
+  background: transparent;
+  margin-bottom: 60px;
+  outline: none;
+  font-size: 18px;
+}
+.message input::placeholder {
+  font-family: "Playfair Display", serif;
+  color: #626262;
+  font-size: 14px;
+}
+.message form {
+  position: relative;
+}
+.message .img {
+  position: absolute;
+  right: 0;
+  bottom: 60px;
+}
+.load-more-button {
+  width: 6%;
+  margin: auto;
+  padding-bottom: 100px;
+}
+.load-more-button button {
+  font-family: "Playfair Display", serif;
+  color: #626262;
+  border: 1px solid black;
+  padding: 12px 23px;
+  background: transparent;
+  cursor: pointer;
+}
+footer {
+  background: #f0f0f0;
+}
+.footer-area {
+  width: 85%;
+  margin: auto;
+  padding: 30px 0;
+}
+.rules {
+  width: 14%;
+}
+.rules ul {
+  list-style: none;
+}
+.rules ul li a {
+  text-decoration: none;
+  font-family: "Playfair Display", serif;
+  color: #626262;
+  font-size: 14px;
+}
+.follow {
+  width: 13%;
+}
+.follow ul {
+  list-style: none;
+}
+.follow ul li p {
+  color: #000;
+  font-size: 14px;
+  font-family: "Playfair Display", serif;
+}
+.follow ul li a {
+  font-family: "Playfair Display", serif;
+  color: #626262;
+  font-size: 13px;
+}
