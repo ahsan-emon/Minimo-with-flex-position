@@ -10,12 +10,6 @@ header {
   margin: auto;
   padding: 50px 0 100px 0;
 }
-.logo-area {
-  width: 20%;
-}
-.menu-area {
-  width: 36%;
-}
 .flex-test1 {
   display: flex;
   justify-content: space-between;
@@ -25,7 +19,8 @@ header {
 }
 .menu-area ul li a {
   text-decoration: none;
-  color: black;
+  margin-left: 50px;
+  font-size: 18px;
   text-transform: uppercase;
   color: #626262;
   font-family: "Playfair Display", serif;
